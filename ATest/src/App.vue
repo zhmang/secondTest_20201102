@@ -57,6 +57,7 @@ export default {
   name: 'App',
   data () {
     let validate1 = (rule, value, callback) => {
+      console.log(11)
       if (value === '') {
         callback(new Error('请输入身份证号码'))
         // eslint-disable-next-line no-undef
