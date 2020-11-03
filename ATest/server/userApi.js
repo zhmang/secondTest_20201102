@@ -3,7 +3,6 @@ var express = require('express')
 var router = express.Router()
 var mysql = require('mysql')
 var $sql = require('../sqlMap')
-console.log(111)
 
 // 连接数据库
 var conn = mysql.createConnection(models.mysql)
